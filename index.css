@@ -86,6 +86,15 @@ body{
     margin-bottom: 30px;
 }
 
+.item1:hover{
+    background-color: rgb(223, 220, 220);
+}
+
+.item1:active{
+    background-color: red;
+    color: white;
+}
+
 .item1 .title{
     font-size:22px;
     display:flex;
@@ -136,5 +145,6 @@ body{
     }
     .item1 .title,.item1 .content{
         font-size:35px;
+        padding:30px;
     }
 }
