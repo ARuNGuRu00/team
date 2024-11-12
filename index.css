@@ -8,7 +8,7 @@ body{
 .container{
     display:flex;
     position:relative;
-    height:100%;
+    
     width:100%;
 }
 
@@ -82,7 +82,7 @@ body{
 .item1{
     background-color:rgb(240, 230, 250);
     width:100%;
-    border-radius: 10px;
+    border-radius: 15px;
     margin-bottom: 30px;
 }
 
@@ -123,12 +123,16 @@ body{
         display: none;
     }
     .container{
-        margin-top:180px;
+        margin-top:150px;
         justify-content: center;
+    }
+
+    .item1{
+        margin-bottom: 80px;
     }
     .test-window{
         margin-left:10px;
-        width:80%;
+        width:90%;
     }
     .item1 .title,.item1 .content{
         font-size:35px;
